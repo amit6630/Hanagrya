@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "הנגרייה",
-    "currentPage": "index.html",
+    "currentPage": "images.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -60,7 +60,7 @@
       "currency": "USD"
     },
     "favicon": false,
-    "mbrsiteDomain": "vlcy4hvxt4",
+    "mbrsiteDomain": "xngfseu6xx",
     "usedWebp": false,
     "cssOptimize": true,
     "lazyLoad": true,
@@ -99,7 +99,7 @@
         "title": "הנגרייה |הנגרייה בית של אירועים|אולם אירועים בכראמיל",
         "meta_descr": "",
         "header_custom": "",
-        "footer_custom": "",
+        "footer_custom": "<!-- Accessibility -->\n<script>\nwindow.args = {\n\tsitekey   : '2fcf212be5774ef728da754cdf82a032',\n\tposition  : 'Left',\n\tlanguage  : 'HE',\n\tcontainer : '',\n\ticon : '',\n\taccess : 'https://vee-crm.com',\n\tstyles : {\n\t\tprimary_color: '#000000',\n\t\tsecondary_color: '#b586ff',\n\t\tbackground_color: '#f6f6f6',\n\t\tprimary_text_color: '#636363',\n\t\theaders_text_color: '#105675',\n\t\tprimary_font_size: 14,\n\t\tslider_left_color:  '#b586ff',\n\t\tslider_right_color:  '#177fab',\n\t\ticon_vertical_position: 'top',\n\t\ticon_offset_top: 100,\n\t\ticon_offset_bottom: 0,\n\t\thighlight_focus_color: '#177fab',\n\t\ttoggler_icon_color: '#ffffff',\n\t},\n\tlinks : {\n\t\tacc_policy: '',\n\t\tadditional_link: 'https://vee.co.il/pricing/'\n\t},\n\toptions : {\n\t\topen: false,\n\t\taaa: false,\n\t\thide_tablet: false,\n\t\thide_mobile: false,\n\t\tbutton_size_tablet: 44,\n\t\tbutton_size_mobile: 34,\n\t\tposition_tablet: 'Right',\n\t\tposition_mobile: 'Right',\n\t\ticon_vertical_position_tablet: 'top',\n\t\ticon_vertical_position_mobile: 'top',\n\t\ticon_offset_top_tablet: 100,\n\t\ticon_offset_bottom_tablet: 0,\n\t\ticon_offset_top_mobile: 100,\n\t\ticon_offset_bottom_mobile: 0,\n\t\tkeyboard_shortcut: true,\n\t\thide_purchase_link: false,\n\t\tdisplay_checkmark_icon: false,\n\t\tactive_toggler_color: '#118f38'\n\t},\n\t// Optional, values: high-contast, negative, grayscale, black-white, highlight-links, keyboard-navigation, text, word-spacing, letter-spacing, readable-text, alt, cursor, reading, animations, highlight-titles (Use Quotes, comma seperated)\n\texclude : []\n};\n\n(function(doc, head, body){\n\tvar embed = doc.createElement('script');\n\tembed.src = window.args['access'] + '/js/';\n\tembed.defer = true;\n\tembed.crossOrigin = 'anonymous';\n\tembed.setAttribute('data-cfasync', true );\n\tbody? body.appendChild(embed) : head.appendChild(embed);\n})(document, document.head, document.body);\n</script>",
         "html_before": ""
       },
       "components": [
@@ -801,7 +801,8 @@
     "images.html": {
       "settings": {
         "title": "גלריית תמונות של הנגרייה",
-        "order": "4"
+        "order": "4",
+        "footer_custom": "<!-- Accessibility -->\n<script>\nwindow.args = {\n\tsitekey   : '2fcf212be5774ef728da754cdf82a032',\n\tposition  : 'Left',\n\tlanguage  : 'HE',\n\tcontainer : '',\n\ticon : '',\n\taccess : 'https://vee-crm.com',\n\tstyles : {\n\t\tprimary_color: '#000000',\n\t\tsecondary_color: '#b586ff',\n\t\tbackground_color: '#f6f6f6',\n\t\tprimary_text_color: '#636363',\n\t\theaders_text_color: '#105675',\n\t\tprimary_font_size: 14,\n\t\tslider_left_color:  '#b586ff',\n\t\tslider_right_color:  '#177fab',\n\t\ticon_vertical_position: 'top',\n\t\ticon_offset_top: 100,\n\t\ticon_offset_bottom: 0,\n\t\thighlight_focus_color: '#177fab',\n\t\ttoggler_icon_color: '#ffffff',\n\t},\n\tlinks : {\n\t\tacc_policy: '',\n\t\tadditional_link: 'https://vee.co.il/pricing/'\n\t},\n\toptions : {\n\t\topen: false,\n\t\taaa: false,\n\t\thide_tablet: false,\n\t\thide_mobile: false,\n\t\tbutton_size_tablet: 44,\n\t\tbutton_size_mobile: 34,\n\t\tposition_tablet: 'Right',\n\t\tposition_mobile: 'Right',\n\t\ticon_vertical_position_tablet: 'top',\n\t\ticon_vertical_position_mobile: 'top',\n\t\ticon_offset_top_tablet: 100,\n\t\ticon_offset_bottom_tablet: 0,\n\t\ticon_offset_top_mobile: 100,\n\t\ticon_offset_bottom_mobile: 0,\n\t\tkeyboard_shortcut: true,\n\t\thide_purchase_link: false,\n\t\tdisplay_checkmark_icon: false,\n\t\tactive_toggler_color: '#118f38'\n\t},\n\t// Optional, values: high-contast, negative, grayscale, black-white, highlight-links, keyboard-navigation, text, word-spacing, letter-spacing, readable-text, alt, cursor, reading, animations, highlight-titles (Use Quotes, comma seperated)\n\texclude : []\n};\n\n(function(doc, head, body){\n\tvar embed = doc.createElement('script');\n\tembed.src = window.args['access'] + '/js/';\n\tembed.defer = true;\n\tembed.crossOrigin = 'anonymous';\n\tembed.setAttribute('data-cfasync', true );\n\tbody? body.appendChild(embed) : head.appendChild(embed);\n})(document, document.head, document.body);\n</script>"
       },
       "components": [
         {
@@ -1927,7 +1928,7 @@
         "title": "הנגרייה |הנגרייה בית של אירועים",
         "meta_descr": "",
         "header_custom": "",
-        "footer_custom": "",
+        "footer_custom": "<!-- Accessibility -->\n<script>\nwindow.args = {\n\tsitekey   : '2fcf212be5774ef728da754cdf82a032',\n\tposition  : 'Left',\n\tlanguage  : 'HE',\n\tcontainer : '',\n\ticon : '',\n\taccess : 'https://vee-crm.com',\n\tstyles : {\n\t\tprimary_color: '#000000',\n\t\tsecondary_color: '#b586ff',\n\t\tbackground_color: '#f6f6f6',\n\t\tprimary_text_color: '#636363',\n\t\theaders_text_color: '#105675',\n\t\tprimary_font_size: 14,\n\t\tslider_left_color:  '#b586ff',\n\t\tslider_right_color:  '#177fab',\n\t\ticon_vertical_position: 'top',\n\t\ticon_offset_top: 100,\n\t\ticon_offset_bottom: 0,\n\t\thighlight_focus_color: '#177fab',\n\t\ttoggler_icon_color: '#ffffff',\n\t},\n\tlinks : {\n\t\tacc_policy: '',\n\t\tadditional_link: 'https://vee.co.il/pricing/'\n\t},\n\toptions : {\n\t\topen: false,\n\t\taaa: false,\n\t\thide_tablet: false,\n\t\thide_mobile: false,\n\t\tbutton_size_tablet: 44,\n\t\tbutton_size_mobile: 34,\n\t\tposition_tablet: 'Right',\n\t\tposition_mobile: 'Right',\n\t\ticon_vertical_position_tablet: 'top',\n\t\ticon_vertical_position_mobile: 'top',\n\t\ticon_offset_top_tablet: 100,\n\t\ticon_offset_bottom_tablet: 0,\n\t\ticon_offset_top_mobile: 100,\n\t\ticon_offset_bottom_mobile: 0,\n\t\tkeyboard_shortcut: true,\n\t\thide_purchase_link: false,\n\t\tdisplay_checkmark_icon: false,\n\t\tactive_toggler_color: '#118f38'\n\t},\n\t// Optional, values: high-contast, negative, grayscale, black-white, highlight-links, keyboard-navigation, text, word-spacing, letter-spacing, readable-text, alt, cursor, reading, animations, highlight-titles (Use Quotes, comma seperated)\n\texclude : []\n};\n\n(function(doc, head, body){\n\tvar embed = doc.createElement('script');\n\tembed.src = window.args['access'] + '/js/';\n\tembed.defer = true;\n\tembed.crossOrigin = 'anonymous';\n\tembed.setAttribute('data-cfasync', true );\n\tbody? body.appendChild(embed) : head.appendChild(embed);\n})(document, document.head, document.body);\n</script>",
         "html_before": "",
         "order": "1"
       },
