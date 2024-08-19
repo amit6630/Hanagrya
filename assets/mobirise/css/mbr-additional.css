@@ -863,6 +863,12 @@ a {
   .cid-ul9WpJlhK5 .grid-container {
     grid-template-columns: 1fr;
   }
+  .cid-ul9WpJlhK5 .desktop-image {
+    display: none;
+  }
+  .cid-ul9WpJlhK5 .mobile-image {
+    display: block;
+  }
   .cid-ul9WpJlhK5 .grid-item.top-left,
   .cid-ul9WpJlhK5 .grid-item.top-right {
     grid-column: span 1;
