@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "הנגרייה",
-    "currentPage": "aboutus.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -53,14 +53,14 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 102,
+    "uniqCompNum": 103,
     "versionPublish": "5.9.18",
     "screenshot": "screenshot.png",
     "mcSmartCart": {
       "currency": "USD"
     },
     "favicon": false,
-    "mbrsiteDomain": "uvuy6nqjzc",
+    "mbrsiteDomain": "bo7pyybans",
     "usedWebp": false,
     "cssOptimize": true,
     "lazyLoad": true,
@@ -70,7 +70,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "chatbutton": {
-      "phone": "+972 54-330-8800",
+      "phone": "054-330-8800",
       "message": "",
       "size": "65px",
       "backgroundColor": "#e5ddd5",
