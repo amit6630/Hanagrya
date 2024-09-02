@@ -60,7 +60,7 @@
       "currency": "USD"
     },
     "favicon": false,
-    "mbrsiteDomain": "bo7pyybans",
+    "mbrsiteDomain": "exbnbxi7o5",
     "usedWebp": false,
     "cssOptimize": true,
     "lazyLoad": true,
@@ -70,7 +70,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "chatbutton": {
-      "phone": "054-330-8800",
+      "phone": "+972543308800",
       "message": "",
       "size": "65px",
       "backgroundColor": "#e5ddd5",
@@ -86,13 +86,13 @@
       "enabled": true
     },
     "pwa-switcher": false,
-    "gdpr": false,
     "PWA": {
       "enabled": false
     },
     "publishEditFolder": false,
     "global_header_custom": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-YXVB83FK4Z\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-YXVB83FK4Z');\n</script>",
-    "google-analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-YXVB83FK4Z\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-YXVB83FK4Z');\n</script>"
+    "google-analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-YXVB83FK4Z\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-YXVB83FK4Z');\n</script>",
+    "gdpr": false
   },
   "pages": {
     "index.html": {
