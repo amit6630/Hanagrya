@@ -60,15 +60,14 @@
       "currency": "USD"
     },
     "favicon": false,
-    "mbrsiteDomain": "exbnbxi7o5",
+    "mbrsiteDomain": "rjf5ovcu3z",
     "usedWebp": false,
     "cssOptimize": true,
     "lazyLoad": true,
-    "robotsSwitcher": false,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
-    "siteUrl": false,
-    "cookiesAlert": false,
+    "robotsSwitcher": true,
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": "https://hanagrya.com/",
     "chatbutton": {
       "phone": "+972543308800",
       "message": "",
@@ -92,7 +91,9 @@
     "publishEditFolder": false,
     "global_header_custom": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-YXVB83FK4Z\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-YXVB83FK4Z');\n</script>",
     "google-analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-YXVB83FK4Z\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-YXVB83FK4Z');\n</script>",
-    "gdpr": false
+    "gdpr": false,
+    "cookiesAlert": false,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\nDisallow: /admin/\nDisallow: /private/\nAllow: /images/\n\n"
   },
   "pages": {
     "index.html": {
