@@ -55,14 +55,14 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 118,
+    "uniqCompNum": 119,
     "versionPublish": "5.9.18",
     "screenshot": "screenshot.png",
     "mcSmartCart": {
       "currency": "USD"
     },
     "favicon": false,
-    "mbrsiteDomain": "7wn2yjrrjy",
+    "mbrsiteDomain": "rtgp9nbvta",
     "usedWebp": false,
     "cssOptimize": true,
     "lazyLoad": true,
@@ -1945,12 +1945,7 @@
               }
             },
             ".nav-link": {
-              "position": "relative",
-              "font-size": "1.5rem",
-              "color": "#304e59",
-              "text-decoration": "none",
-              "font-weight": "bold",
-              "transition": "color 0.3s ease"
+              "position": "relative"
             },
             ".container": {
               "display": "flex",
@@ -2100,8 +2095,7 @@
               "background-color": "#ffffff !important"
             },
             ".navbar-collapse.show": {
-              "display": "flex",
-              "transform": "translateY(0)"
+              "display": "flex"
             },
             ".navbar.opened": {
               "display": "flex",
@@ -2118,30 +2112,6 @@
             },
             ".collapse.navbar-collapse": {
               "background-color": "#ffffff !important"
-            },
-            ".navbar-collapse": {
-              "position": "fixed",
-              "top": "0",
-              "left": "0",
-              "width": "100%",
-              "height": "100%",
-              "background-color": "rgba(255, 255, 255, 0.9)",
-              "z-index": "1050",
-              "transform": "translateY(-100%)",
-              "transition": "transform 0.3s ease"
-            },
-            ".navbar-nav": {
-              "display": "flex",
-              "flex-direction": "column",
-              "justify-content": "center",
-              "align-items": "center",
-              "height": "100%"
-            },
-            ".nav-item": {
-              "margin": "20px 0"
-            },
-            ".nav-link:hover": {
-              "color": "#007bff"
             }
           },
           "_name": "menu01",
@@ -2188,7 +2158,6 @@
         {
           "_name": "team02",
           "_sourceTheme": "softwarem4",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"team2\" group=\"Team\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" xmlns=\"http://www.w3.org/1999/html\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparentCard\" checked>\n        <input type=\"color\" title=\"Color\" name=\"cardBg\" value=\"#dce8eb\" condition=\"!transparentCard\">\n        <input type=\"color\" title=\"Image Border\" name=\"cardBg2\" value=\"#ffffff\">\n        <header condition=\"showSocial\">Social</header>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\" checked>\n        <input type=\"range\" name=\"socialCount\" title=\"Count\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Color\" name=\"socialIconColor\" value=\"#ffffff\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Hover Color\" name=\"socialIconColor2\" value=\"#ffd7ef\" condition=\"showSocial\">\n        <input type=\"color\" title=\"BG Color\" name=\"socialIconColor3\" value=\"#304e59\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/softwarem4/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/softwarem4/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#cebfaf\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"card\">\n            <div class=\"card-wrapper\">\n                <div class=\"row align-items-center\">\n                    <div class=\"col-12 col-md-12 col-lg-5\">\n                        <div class=\"image-wrapper\">\n                            <img src=\"@PROJECT_PATH@/assets/images/-whatsapp-2024-12-22-18.11.16-5b5de27f-856x1142.jpg\" alt=\"Mobirise\">\n                                    <h5 class=\"image-caption\" ata-app-selector=\".mbr-text, \" mbr-theme-style=\"display-7\"><b>.ברוכים הבאים לנגריה בית של אירועים</b><b><br>בין אם מדובר בבר/בת מצווה, חינה, ברית, הפרשת חלה או יום הולדת – אצלנו כל אירוע הופך לחוויה אישית ומיוחדת. אנחנו דואגים לכל פרט ופרט, כדי שתהנו מאווירה חמימה, עיצוב מושלם ורגעים בלתי נשכחים. בנגריה תמצאו את המקום המושלם לאירוע שלכם, שבו\n<br>.כל רגע יהפוך  לייחודי ומרגש</b></h5> <!-- טקסט מתחת לתמונה -->\n\n                        </div>\n                    </div>\n                    <div class=\"col-12 col-md-12 col-lg-7\">\n                        <div class=\"card-box align-left\">\n                            <h5 class=\"card-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>השירותים שהמקום מציע</b></h5>\n                            <p class=\"mbr-text mbr-fonts-style pb-2\" data-app-selector=\".mbr-text, .social-row\" mbr-theme-style=\"display-5\" mbr-if=\"showText\">בנגריה בית של אירועים, אנו מציעים מגוון שירותים המבטיחים שהאירוע שלכם יהיה בנגריה בית של אירועים, אנו מציעים מגוון שירותים <br>:המבטיחים שהאירוע שלכם יהיה מושלם. בין השירותים שלנו\n הפקת אירועים מותאמת אישית: כל אירוע מתוכנן בהתאמה מלאה לצרכים שלכם, עם דגש\n.על כל פרט ופרט<br>\n קייטרינג איכותי: מגוון רחב של מנות מותאמות אישית, המשלבות <br>.טעמים עשירים ואיכות בלתי מתפשרת<br>&nbsp; צילום מקצועי :צוות צלמים מנוסה שיתעד את<br>הרגעים המרגשים שלכם בצורה מקצועית\nעיצוב המקום<br>&nbsp;עיצוב ייחודי: שמתאים לכל סגנון אירוע, תוך שמירה על אווירה חמה ומזמינה<br>ספקים חיצוניים: אנו עובדים עם ספקים•\nמהשורה הראשונה, כולל די-ג’ייז, מכונות צילום ואטרקציות ועוד, על מנת להבטיח שהאירוע <br>.שלכם יהיה מושלם\n\nבכל אירוע<br> אנחנו כאן כדי לדאוג לכל פרט ולהפוך את יום החגיגה שלכם לבלתי נשכח\n                            </p><div class=\"social-row display-7\" mbr-if=\"showSocial\">\n                                <div class=\"soc-item\">\n                                    <a href=\"https://www.google.com/maps?rlz=1C1CHZL_iwIL797IL797&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8MgYIAhBFGDwyBggDEEUYPNIBCDExODJqMGo0qAIAsAIB&um=1&ie=UTF-8&fb=1&gl=il&sa=X&geocode=Kc0Jp6COMRwVMUXXlIZPFhm2&daddr=%D7%94%D7%9E%D7%9C%D7%90%D7%9B%D7%94+14,+%D7%9B%D7%A8%D7%9E%D7%99%D7%90%D7%9C\" target=\"_blank\">\n                                        <span mbr-icon class=\"mbr-iconfont mdi-maps-place\"></span>\n                                    </a>\n                                </div>\n                                <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                                    <a href=\"https://www.facebook.com/hangarya1/?locale=he_IL\" target=\"_blank\">\n                                        <span mbr-icon class=\"mbr-iconfont socicon-twitter socicon\"></span>\n                                    </a>\n                                </div>\n                                <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                                    <a href=\"https://www.instagram.com/hanagarya_/\" target=\"_blank\">\n                                        <span mbr-icon class=\"mbr-iconfont socicon-instagram socicon\"></span>\n                                    </a>\n                                </div>\n                                <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                                    <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                                        <span mbr-icon class=\"mbr-iconfont socicon socicon-youtube\"></span>\n                                    </a>\n                                </div>\n                                <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                                    <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                        <span mbr-icon class=\"mbr-iconfont socicon socicon-telegram\"></span>\n                                    </a>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
@@ -2287,10 +2256,12 @@
               "margin-top": "3rem"
             }
           },
-          "_cid": "uAfNRqCKM3",
-          "_anchor": "team02-39",
-          "_PHPplaceholders": [],
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"team2\" group=\"Team\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" xmlns=\"http://www.w3.org/1999/html\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparentCard\" checked=\"\">\n        <input type=\"color\" title=\"Color\" name=\"cardBg\" value=\"#dce8eb\" condition=\"!transparentCard\">\n        <input type=\"color\" title=\"Image Border\" name=\"cardBg2\" value=\"#ffffff\">\n        <header condition=\"showSocial\">Social</header>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\" checked=\"\">\n        <input type=\"range\" name=\"socialCount\" title=\"Count\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Color\" name=\"socialIconColor\" value=\"#ffffff\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Hover Color\" name=\"socialIconColor2\" value=\"#ffd7ef\" condition=\"showSocial\">\n        <input type=\"color\" title=\"BG Color\" name=\"socialIconColor3\" value=\"#304e59\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1-3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected=\"\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background1-3.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked=\"\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#cebfaf\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"card\">\n            <div class=\"card-wrapper\">\n                <div class=\"row align-items-center\">\n                    <div class=\"col-12 col-md-12 col-lg-5\">\n                        <div class=\"image-wrapper\">\n                            <img src=\"@PROJECT_PATH@/assets/images/-whatsapp-2024-12-22-18.11.16-5b5de27f-856x1142.jpg\" alt=\"Mobirise\">\n                                    <h5 class=\"image-caption\" ata-app-selector=\".mbr-text, \" mbr-theme-style=\"display-7\"><b>.ברוכים הבאים לנגריה בית של אירועים</b><b><br>בין אם מדובר בבר/בת מצווה, חינה, ברית, הפרשת חלה או יום הולדת – אצלנו כל אירוע הופך לחוויה אישית ומיוחדת. אנחנו דואגים לכל פרט ופרט, כדי שתהנו מאווירה חמימה, עיצוב מושלם ורגעים בלתי נשכחים. בנגריה תמצאו את המקום המושלם לאירוע שלכם, שבו\n<br>.כל רגע יהפוך  לייחודי ומרגש</b></h5> <!-- טקסט מתחת לתמונה -->\n\n                        </div>\n                    </div>\n                    <div class=\"col-12 col-md-12 col-lg-7\">\n                        <div class=\"card-box align-left\">\n                            <h5 class=\"card-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>השירותים שהמקום מציע</b></h5>\n                            <p class=\"mbr-text mbr-fonts-style pb-2\" data-app-selector=\".mbr-text, .social-row\" mbr-theme-style=\"display-5\" mbr-if=\"showText\">בנגריה בית של אירועים, אנו מציעים מגוון שירותים המבטיחים שהאירוע שלכם יהיה בנגריה בית של אירועים, אנו מציעים מגוון שירותים <br>:המבטיחים שהאירוע שלכם יהיה מושלם. בין השירותים שלנו\n הפקת אירועים מותאמת אישית: כל אירוע מתוכנן בהתאמה מלאה לצרכים שלכם, עם דגש\n.על כל פרט ופרט<br>\n קייטרינג איכותי: מגוון רחב של מנות מותאמות אישית, המשלבות <br>.טעמים עשירים ואיכות בלתי מתפשרת<br>&nbsp; צילום מקצועי :צוות צלמים מנוסה שיתעד את<br>הרגעים המרגשים שלכם בצורה מקצועית\nעיצוב המקום<br>&nbsp;עיצוב ייחודי: שמתאים לכל סגנון אירוע, תוך שמירה על אווירה חמה ומזמינה<br>ספקים חיצוניים: אנו עובדים עם ספקים•\nמהשורה הראשונה, כולל די-ג’ייז, מכונות צילום ואטרקציות ועוד, על מנת להבטיח שהאירוע <br>.שלכם יהיה מושלם\n\nבכל אירוע<br> אנחנו כאן כדי לדאוג לכל פרט ולהפוך את יום החגיגה שלכם לבלתי נשכח\n                            </p><div class=\"social-row display-7\" mbr-if=\"showSocial\">\n                                <div class=\"soc-item\">\n                                    <a href=\"https://www.google.com/maps?rlz=1C1CHZL_iwIL797IL797&amp;gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8MgYIAhBFGDwyBggDEEUYPNIBCDExODJqMGo0qAIAsAIB&amp;um=1&amp;ie=UTF-8&amp;fb=1&amp;gl=il&amp;sa=X&amp;geocode=Kc0Jp6COMRwVMUXXlIZPFhm2&amp;daddr=%D7%94%D7%9E%D7%9C%D7%90%D7%9B%D7%94+14,+%D7%9B%D7%A8%D7%9E%D7%99%D7%90%D7%9C\" target=\"_blank\">\n                                        <span mbr-icon=\"\" class=\"mbr-iconfont mdi-maps-place\"></span>\n                                    </a>\n                                </div>\n                                <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                                    <a href=\"https://www.facebook.com/hangarya1/?locale=he_IL\" target=\"_blank\">\n                                        <span mbr-icon=\"\" class=\"mbr-iconfont socicon-twitter socicon\"></span>\n                                    </a>\n                                </div>\n                                <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                                    <a href=\"https://www.instagram.com/hanagarya_/\" target=\"_blank\">\n                                        <span mbr-icon=\"\" class=\"mbr-iconfont socicon-instagram socicon\"></span>\n                                    </a>\n                                </div>\n                                <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                                    <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                                        <span mbr-icon=\"\" class=\"mbr-iconfont socicon socicon-youtube\"></span>\n                                    </a>\n                                </div>\n                                <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                                    <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                        <span mbr-icon=\"\" class=\"mbr-iconfont socicon socicon-telegram\"></span>\n                                    </a>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "team02-3a",
+          "_isUserblock": true,
+          "_cid": "uAfUMhq9y5",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
