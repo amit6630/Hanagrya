@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "הנגרייה",
-    "currentPage": "index.html",
+    "currentPage": "aboutus.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -36,7 +36,8 @@
         "#304e59",
         "#fafafa",
         "#39847a",
-        "#8c8c95"
+        "#8c8c95",
+        "#f7d9c4"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -54,7 +55,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 117,
+    "uniqCompNum": 118,
     "versionPublish": "5.9.18",
     "screenshot": "screenshot.png",
     "mcSmartCart": {
@@ -2185,8 +2186,9 @@
           "_params": {}
         },
         {
-          "_name": "people5",
-          "_sourceTheme": "creatorm5",
+          "_name": "team02",
+          "_sourceTheme": "softwarem4",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"team2\" group=\"Team\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" xmlns=\"http://www.w3.org/1999/html\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparentCard\" checked>\n        <input type=\"color\" title=\"Color\" name=\"cardBg\" value=\"#dce8eb\" condition=\"!transparentCard\">\n        <input type=\"color\" title=\"Image Border\" name=\"cardBg2\" value=\"#ffffff\">\n        <header condition=\"showSocial\">Social</header>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\" checked>\n        <input type=\"range\" name=\"socialCount\" title=\"Count\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Color\" name=\"socialIconColor\" value=\"#ffffff\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Hover Color\" name=\"socialIconColor2\" value=\"#ffd7ef\" condition=\"showSocial\">\n        <input type=\"color\" title=\"BG Color\" name=\"socialIconColor3\" value=\"#304e59\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/softwarem4/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/softwarem4/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#cebfaf\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"card\">\n            <div class=\"card-wrapper\">\n                <div class=\"row align-items-center\">\n                    <div class=\"col-12 col-md-12 col-lg-5\">\n                        <div class=\"image-wrapper\">\n                            <img src=\"@PROJECT_PATH@/assets/images/-whatsapp-2024-12-22-18.11.16-5b5de27f-856x1142.jpg\" alt=\"Mobirise\">\n                                    <h5 class=\"image-caption\" ata-app-selector=\".mbr-text, \" mbr-theme-style=\"display-7\"><b>.ברוכים הבאים לנגריה בית של אירועים</b><b><br>בין אם מדובר בבר/בת מצווה, חינה, ברית, הפרשת חלה או יום הולדת – אצלנו כל אירוע הופך לחוויה אישית ומיוחדת. אנחנו דואגים לכל פרט ופרט, כדי שתהנו מאווירה חמימה, עיצוב מושלם ורגעים בלתי נשכחים. בנגריה תמצאו את המקום המושלם לאירוע שלכם, שבו\n<br>.כל רגע יהפוך  לייחודי ומרגש</b></h5> <!-- טקסט מתחת לתמונה -->\n\n                        </div>\n                    </div>\n                    <div class=\"col-12 col-md-12 col-lg-7\">\n                        <div class=\"card-box align-left\">\n                            <h5 class=\"card-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>השירותים שהמקום מציע</b></h5>\n                            <p class=\"mbr-text mbr-fonts-style pb-2\" data-app-selector=\".mbr-text, .social-row\" mbr-theme-style=\"display-5\" mbr-if=\"showText\">בנגריה בית של אירועים, אנו מציעים מגוון שירותים המבטיחים שהאירוע שלכם יהיה בנגריה בית של אירועים, אנו מציעים מגוון שירותים <br>:המבטיחים שהאירוע שלכם יהיה מושלם. בין השירותים שלנו\n הפקת אירועים מותאמת אישית: כל אירוע מתוכנן בהתאמה מלאה לצרכים שלכם, עם דגש\n.על כל פרט ופרט<br>\n קייטרינג איכותי: מגוון רחב של מנות מותאמות אישית, המשלבות <br>.טעמים עשירים ואיכות בלתי מתפשרת<br>&nbsp; צילום מקצועי :צוות צלמים מנוסה שיתעד את<br>הרגעים המרגשים שלכם בצורה מקצועית\nעיצוב המקום<br>&nbsp;עיצוב ייחודי: שמתאים לכל סגנון אירוע, תוך שמירה על אווירה חמה ומזמינה<br>ספקים חיצוניים: אנו עובדים עם ספקים•\nמהשורה הראשונה, כולל די-ג’ייז, מכונות צילום ואטרקציות ועוד, על מנת להבטיח שהאירוע <br>.שלכם יהיה מושלם\n\nבכל אירוע<br> אנחנו כאן כדי לדאוג לכל פרט ולהפוך את יום החגיגה שלכם לבלתי נשכח\n                            </p><div class=\"social-row display-7\" mbr-if=\"showSocial\">\n                                <div class=\"soc-item\">\n                                    <a href=\"https://www.google.com/maps?rlz=1C1CHZL_iwIL797IL797&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8MgYIAhBFGDwyBggDEEUYPNIBCDExODJqMGo0qAIAsAIB&um=1&ie=UTF-8&fb=1&gl=il&sa=X&geocode=Kc0Jp6COMRwVMUXXlIZPFhm2&daddr=%D7%94%D7%9E%D7%9C%D7%90%D7%9B%D7%94+14,+%D7%9B%D7%A8%D7%9E%D7%99%D7%90%D7%9C\" target=\"_blank\">\n                                        <span mbr-icon class=\"mbr-iconfont mdi-maps-place\"></span>\n                                    </a>\n                                </div>\n                                <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                                    <a href=\"https://www.facebook.com/hangarya1/?locale=he_IL\" target=\"_blank\">\n                                        <span mbr-icon class=\"mbr-iconfont socicon-twitter socicon\"></span>\n                                    </a>\n                                </div>\n                                <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                                    <a href=\"https://www.instagram.com/hanagarya_/\" target=\"_blank\">\n                                        <span mbr-icon class=\"mbr-iconfont socicon-instagram socicon\"></span>\n                                    </a>\n                                </div>\n                                <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                                    <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                                        <span mbr-icon class=\"mbr-iconfont socicon socicon-youtube\"></span>\n                                    </a>\n                                </div>\n                                <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                                    <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                        <span mbr-icon class=\"mbr-iconfont socicon socicon-telegram\"></span>\n                                    </a>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
@@ -2196,179 +2198,99 @@
             "& when (@bg-type = \"image\")": {
               "background-image": "url(@bg-value)"
             },
-            ".row": {
-              "align-items": "center",
-              "justify-content": "space-between"
+            ".card:not(:nth-last-child(1))": {
+              "margin-bottom": "2rem"
             },
-            ".mbr-section-title": {
-              "width": "100%",
-              "text-align": "center",
-              "margin-bottom": "24px",
-              "line-height": "1.171em"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#4c4c4c",
-              "width": "100%",
-              "text-align": "left"
-            },
-            ".mbr-text": {
-              "color": "#5f5d68",
-              "margin-bottom": "28px"
-            },
-            ".right-side": {
-              "max-width": "554px"
-            },
-            ".mbr-section-btn": {
-              "width": "auto",
-              "display": "block"
-            },
-            ".margin": {
-              "margin-right": "14px"
-            },
-            ".shadow": {
-              "padding": "62px 56px 64px",
-              "box-shadow": "0 5px 16px 0 rgba(8, 15, 52, 0.07)",
-              "max-width": "568px",
-              "overflow": "hidden",
-              "border-style": "solid",
-              "border-width": "1px",
-              "border-color": "#eff0f6",
-              "border-radius": "24px",
-              "background-color": "#fff"
-            },
-            ".socicon-bg-youtube": {
-              "background-color": "@icon1"
-            },
-            ".socicon-bg-facebook": {
-              "background-color": "@icon2"
-            },
-            ".socicon-bg-twitter": {
-              "background-color": "@icon3"
-            },
-            ".socicon-bg-pinterest": {
-              "background-color": "@icon4"
-            },
-            ".socicon-bg-mail": {
-              "background-color": "@icon5"
-            },
-            ".mbr-iconfont": {
-              "margin-left": "0",
-              "margin-right": "0"
-            },
-            ".btn-social": {
-              "margin": "0 !important",
-              "font-size": "14px",
-              "border-radius": "50%",
-              "padding": "0",
-              "width": "32px",
-              "height": "32px",
-              "line-height": "44px",
-              "text-align": "center",
-              "position": "relative",
-              "border": "none !important",
-              "cursor": "pointer",
-              ".mbr-iconfont": {
-                "top": "0",
-                "line-height": "22px",
-                "width": "22px",
-                "color": "#fff",
-                "&:hover": {
-                  "color": "#fff !important"
-                }
-              },
-              "&:hover": {
-                "color": "#fff"
-              },
-              "& + .btn": {
-                "margin-left": "0.1rem"
+            ".card-wrapper": {
+              "background-color": "@cardBg",
+              "border-radius": "10px",
+              "overflow": "visible",
+              "padding": "0rem 0",
+              "& when (@transparentCard)": {
+                "background-color": "transparent"
               }
             },
-            ".right-side-img": {
-              "float": "right",
-              "margin-left": "15px"
+            "p": {
+              "line-height": "1.171em"
             },
-            "img": {
-              "max-width": "100px",
-              "height": "auto",
-              "border-radius": "50%",
-              "margin-bottom": "17px"
+            ".card-box": {
+              "padding": "4rem 4rem",
+              "@media (max-width: 767px)": {
+                "padding": "2rem 1rem"
+              }
             },
-            ".mbr-social-likes": {
-              "max-width": "454px"
+            ".image-wrapper img": {
+              "width": "100%",
+              "object-fit": "cover",
+              "transform": "scale(1.1)",
+              "border": "10px solid @cardBg2",
+              "border-radius": "10px",
+              "@media (max-width: 992px)": {
+                "transform": "scale(1)"
+              }
             },
-            ".card-title": {
-              "margin-bottom": "4px",
+            ".social-row": {
+              ".soc-item": {
+                "display": "inline-block",
+                "text-align": "center",
+                "border-radius": "1rem",
+                "margin-right": "0.6rem",
+                "margin-bottom": "1rem",
+                "padding": "1.3rem",
+                "background": "@socialIconColor3",
+                "transition": "all 0.3s",
+                ".mbr-iconfont": {
+                  "display": "flex",
+                  "justify-content": "center",
+                  "align-content": "center",
+                  "color": "@socialIconColor",
+                  "font-size": "1.3rem",
+                  "transition": "all 0.3s"
+                },
+                "&:hover": {
+                  "background-color": "@socialIconColor2",
+                  ".mbr-iconfont": {
+                    "color": "@socialIconColor3"
+                  }
+                },
+                "@media (max-width: 767px)": {
+                  "margin": "0 0.3rem"
+                }
+              }
+            },
+            ".mbr-text, .social-row": {
               "color": "#304e59",
               "text-align": "center"
             },
-            ".card-subtitle": {
-              "margin-bottom": "21px",
-              "color": "#8c8c95",
-              "text-align": "right"
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
             },
-            ".card-text": {
-              "margin-bottom": "40px",
-              "color": "#8c8c95"
-            },
-            "@media (max-width: 768px)": {
-              ".shadow": {
-                "margin-top": "30px"
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
               }
             },
-            "@media (max-width: 1010px)": {
-              ".margin": {
-                "margin-right": "0px",
-                "margin-bottom": "15px"
-              },
-              ".button-align": {
-                "display": "flex",
-                "flex-direction": "column"
-              }
-            },
-            "@media (max-width: 992px)": {
-              ".shadow": {
-                "margin": "auto"
-              },
-              ".right-side": {
-                "max-width": "initial",
-                "margin-bottom": "50px"
-              }
-            },
-            ".btn": {
-              "margin-top": "20px"
-            },
-            "a.btn > span": {
-              "margin-left": "0.5rem"
-            },
-            "& when (@reverseContent)": {
-              ".row": {
-                "flex-direction": "row-reverse"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".card.home-about-host": {
-                "padding": "52px 40px 54px"
-              }
-            },
-            "@media (max-width: 479px)": {
-              ".card.home-about-host": {
-                "padding": "43px 25px 45px"
-              }
-            },
-            ".card-text, .mbr-social-likes": {
+            ".card-title": {
               "text-align": "center"
             },
-            ".mbr-text, .button-align": {
+            ".image-caption": {
               "text-align": "center",
-              "color": "#304e59"
+              "font-size": "1.5rem",
+              "color": "#304e59",
+              "margin-top": "3rem"
             }
           },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"people5\" group=\"People\">\n    <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n    <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n    <header>Items</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Button\" name=\"showButton\">\n    <input type=\"checkbox\" title=\"Name\" name=\"showName\" checked>\n    <input type=\"checkbox\" title=\"Role\" name=\"showRole\">\n    <input type=\"checkbox\" title=\"Card Text\" name=\"showCardText\" checked>\n    <header>Socials</header>\n    <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n    <select title=\"Social Count\" name=\"iconsCount\" condition=\"showIcons == true\">\n        <option value=\"1\">1</option>\n        <option value=\"2\">2</option>\n        <option value=\"3\" selected>3</option>\n        <option value=\"4\">4</option>\n        <option value=\"5\">5</option>\n    </select>\n    <input type=\"color\" title=\"Color 1\" name=\"icon1\" value=\"#c4302b\" condition=\"showIcons == true\">\n    <input type=\"color\" title=\"Color 2\" name=\"icon2\" value=\"#3e5b98\" condition=\"showIcons == true &amp;&amp; iconsCount > 1\">\n    <input type=\"color\" title=\"Color 3\" name=\"icon3\" value=\"#ffb5b5\" condition=\"showIcons == true &amp;&amp; iconsCount > 2\">\n    <input type=\"color\" title=\"Color 4\" name=\"icon4\" value=\"#c92619\" condition=\"showIcons == true &amp;&amp; iconsCount > 3\">\n    <input type=\"color\" title=\"Color 5\" name=\"icon5\" value=\"#134785\" condition=\"showIcons == true &amp;&amp; iconsCount > 4\">\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\">\n        <input type=\"color\" title=\"Color\" value=\"#fafafa\" selected>\n        <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1-1.jpg\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-between\">\n            \n            <div class=\"col-12 col-lg-6\">\n                <div class=\"left-side\">\n                    <div class=\"shadow\">\n                        <img src=\"@PROJECT_PATH@/assets/images/-whatsapp-2024-12-22-18.11.16-5b5de27f-908x1211.jpg\" alt class=\"right-side\">\n                        <h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".card-title\" mbr-if=\"showName\"><b>הנגריה</b></h5>\n                        <h5 class=\"card-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-subtitle\" mbr-if=\"showRole\">\n                            הבעלים של החברה</h5>\n                        <h5 class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text, .mbr-social-likes\" mbr-if=\"showCardText\">.ברוכים הבאים לנגריה בית של אירועים<div>בין אם מדובר בבר/בת מצווה, חינה, ברית, הפרשת חלה או יום הולדת – אצלנו כל אירוע הופך לחוויה אישית ומיוחדת. אנחנו דואגים לכל פרט ופרט, כדי שתהנו מאווירה חמימה, עיצוב מושלם ורגעים בלתי נשכחים. בנגריה תמצאו את המקום המושלם לאירוע שלכם, שבו </div><div>.כל רגע יהפוך&nbsp;&nbsp;לייחודי&nbsp;ומרגש</div></h5>\n                        <div class=\"mbr-social-likes\" mbr-if=\"showIcons\">\n                            <span class=\"btn btn-social socicon-bg-youtube youtube mx-2\">\n                                <a href=\"https://www.google.com/maps?rlz=1C1CHZL_iwIL797IL797&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8MgYIAhBFGDwyBggDEEUYPNIBCDExODJqMGo0qAIAsAIB&um=1&ie=UTF-8&fb=1&gl=il&sa=X&geocode=Kc0Jp6COMRwVMUXXlIZPFhm2&daddr=%D7%94%D7%9E%D7%9C%D7%90%D7%9B%D7%94+14,+%D7%9B%D7%A8%D7%9E%D7%99%D7%90%D7%9C\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont mdi-maps-place\"></span></a>\n                            </span>\n                            <span class=\"btn btn-social socicon-bg-facebook facebook mx-2\" mbr-if=\"iconsCount > 1\">\n                                <a href=\"https://www.facebook.com/hangarya1/?locale=he_IL\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont socicon-facebook socicon\"></span></a>\n                            </span>\n                            <span class=\"btn btn-social twitter socicon-bg-twitter mx-2\" mbr-if=\"iconsCount > 2\">\n                                <a href=\"https://www.instagram.com/hanagarya_/\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont socicon-instagram socicon\"></span></a>\n                            </span>\n                            <span class=\"btn btn-social pinterest socicon-bg-pinterest mx-2\" mbr-if=\"iconsCount > 3\">\n                                <span mbr-icon class=\"mbr-iconfont socicon-pinterest socicon\"></span>\n                            </span>\n                            <span class=\"btn btn-social mailru socicon-bg-mail mx-2\" mbr-if=\"iconsCount > 4\">\n                                <span mbr-icon class=\"mbr-iconfont mobi-mbri-letter mobi-mbri\"></span>\n                            </span>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-6\">\n                <div class=\"right-side\">\n                    <h5 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\"><b>השירותים שהמקום מציע</b></h5>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text, .button-align\" mbr-if=\"showText\">בנגריה בית של אירועים, אנו מציעים מגוון שירותים המבטיחים שהאירוע שלכם יהיה <br>:מושלם. בין השירותים שלנו<br>&nbsp;הפקת אירועים מותאמת אישית: כל אירוע•<br> מתוכנן בהתאמה מלאה לצרכים שלכם, עם דגש <br>.על כל פרט ופרט<br>&nbsp;קייטרינג איכותי: מגוון רחב של מנות מותאמות•<br> אישית, המשלבות טעמים עשירים ואיכות בלתי <br>.מתפשרת<br>&nbsp;צילום מקצועי: צוות צלמים מנוסה שיתעד את•<br>.הרגעים המרגשים שלכם בצורה מקצועית<br>עיצוב המקום: עיצוב ייחודי שמתאים לכל סגנון•<br> .אירוע, תוך שמירה על אווירה חמה ומזמינה<br>&nbsp;ספקים חיצוניים: אנו עובדים עם ספקים•<br> מהשורה הראשונה, כולל די-ג’ייז, מכונות צילום ואטרקציות ועוד, על מנת להבטיח שהאירוע <br>.שלכם יהיה מושלם<br><br>בכל אירוע, אנחנו כאן כדי לדאוג לכל פרט <br>.ולהפוך את יום החגיגה שלכם&nbsp;לבלתי&nbsp;נשכח<br></p>\n                    <div class=\"button-align\">\n                        <div class=\"mbr-section-btn\" mbr-if=\"showButton\" mbr-buttons mbr-theme-style=\"display-4\">\n                            <a class=\"btn btn-primary\" href data-app-placeholder=\"Type Text\">Subscribe</a>\n\n                            <a class=\"btn btn-secondary\" href data-app-placeholder=\"Type Text\">About the host</a></div>\n                    </div>\n                </div>\n            </div>\n\n        </div>\n    </div>\n</section>",
-          "_JSplaceholders": [],
+          "_cid": "uAfNRqCKM3",
+          "_anchor": "team02-39",
           "_PHPplaceholders": [],
-          "_isUserblock": true,
-          "_cid": "ukSgnDI9SV",
-          "_anchor": "people5-1z",
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
