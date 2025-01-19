@@ -1351,6 +1351,7 @@ a {
 .cid-uxHACrvRFA {
   z-index: 1000;
   width: 100%;
+  position: relative;
 }
 .cid-uxHACrvRFA nav.navbar {
   position: fixed;
@@ -1462,8 +1463,8 @@ a {
   overflow: hidden;
   background-color: #ffffff !important;
   border-bottom: 1px solid transparent;
-  position: absolute;
-  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  background: #ffffff;
 }
 .cid-uxHACrvRFA .navbar.opened {
   transition: all 0.3s;
@@ -1600,6 +1601,11 @@ a {
 }
 .cid-uxHACrvRFA .container {
   display: flex;
+}
+@media (min-width: 992px) {
+  .cid-uxHACrvRFA .container {
+    flex-wrap: wrap;
+  }
 }
 .cid-uxHACrvRFA .dropdown-menu,
 .cid-uxHACrvRFA .navbar.opened {
@@ -2230,6 +2236,7 @@ a {
 .cid-uxHAGpOK5t {
   z-index: 1000;
   width: 100%;
+  position: relative;
 }
 .cid-uxHAGpOK5t nav.navbar {
   position: fixed;
@@ -2341,8 +2348,8 @@ a {
   overflow: hidden;
   background-color: #ffffff !important;
   border-bottom: 1px solid transparent;
-  position: absolute;
-  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  background: #ffffff;
 }
 .cid-uxHAGpOK5t .navbar.opened {
   transition: all 0.3s;
@@ -2479,6 +2486,11 @@ a {
 }
 .cid-uxHAGpOK5t .container {
   display: flex;
+}
+@media (min-width: 992px) {
+  .cid-uxHAGpOK5t .container {
+    flex-wrap: wrap;
+  }
 }
 .cid-uxHAGpOK5t .dropdown-menu,
 .cid-uxHAGpOK5t .navbar.opened {
@@ -3126,6 +3138,7 @@ a {
 .cid-uxHAwwgLOO {
   z-index: 1000;
   width: 100%;
+  position: relative;
 }
 .cid-uxHAwwgLOO nav.navbar {
   position: fixed;
@@ -3237,8 +3250,8 @@ a {
   overflow: hidden;
   background-color: #ffffff !important;
   border-bottom: 1px solid transparent;
-  position: absolute;
-  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  background: #ffffff;
 }
 .cid-uxHAwwgLOO .navbar.opened {
   transition: all 0.3s;
@@ -3375,6 +3388,11 @@ a {
 }
 .cid-uxHAwwgLOO .container {
   display: flex;
+}
+@media (min-width: 992px) {
+  .cid-uxHAwwgLOO .container {
+    flex-wrap: wrap;
+  }
 }
 .cid-uxHAwwgLOO .dropdown-menu,
 .cid-uxHAwwgLOO .navbar.opened {
